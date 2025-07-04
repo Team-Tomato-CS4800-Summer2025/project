@@ -1,0 +1,370 @@
+body {
+  background-color: #e0ffff;
+}
+
+/* NavBar Settings */
+.header-home-container {
+  font-family: "Alegreya", serif;
+  background: rgba(224, 255, 255, 0.45);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.1px);
+  -webkit-backdrop-filter: blur(7.1px);
+}
+
+/* Perfume SVG Icon */
+.perfume-icon {
+  width: 40px;
+  height: 40px;
+  filter: brightness(0) saturate(100%) invert(22%) sepia(59%) saturate(6067%)
+    hue-rotate(170deg) brightness(96%) contrast(101%);
+}
+
+/* NavBar colors */
+.header-home-container header .nav-link {
+  color: #008080 !important;
+}
+
+/* Sign-up Button Colors */
+.login-signup-btn .btn-primary {
+  background-color: #008080 !important;
+  border-color: #008080 !important;
+}
+.login-signup-btn .btn-primary:hover {
+  background-color: #00808042 !important;
+  border-color: #0080802d !important;
+}
+
+/* Login Button Colors */
+.login-signup-btn .btn-outline-primary {
+  color: #008080 !important;
+  border-color: #008080 !important;
+}
+
+/* Button Hover State */
+.login-signup-btn .btn-outline-primary:hover {
+  background-color: #008080 !important;
+  color: #fff !important;
+}
+
+/* Hero Settings */
+.hero-home-container {
+  background-color: #008080;
+  font-family: "Alegreya", serif;
+  height: 372px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-home-container > h1,
+.hero-home-container-description {
+  color: #e0ffff !important;
+
+  -webkit-text-stroke: 0.5px rgba(224, 255, 255, 0.45) !important;
+
+  /* two shadows: 
+         - a light one up-left for the “highlight” 
+         - a darker one down-right for the “shadow” */
+  text-shadow: -2px -2px 2px rgba(224, 255, 255, 0.1),
+    2px 2px 4px rgba(0, 0, 0, 0.45) !important;
+}
+
+/* Fragrance Body (Under Image) */
+.frag-card-body {
+  background-color: #e0ffff;
+  font-family: "Alegreya", serif;
+}
+
+.frag-title {
+  color: #008080;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+.frag-subtitle {
+  color: #20b2aa;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+.star-icon {
+  padding: 5px;
+  filter: brightness(0) saturate(100%) invert(90%) sepia(15%) saturate(7056%)
+    hue-rotate(340deg) brightness(105%) contrast(97%);
+}
+
+/* View Button Settings */
+.btn-frag-view {
+  border-color: #266e6a;
+  color: #266e6a;
+}
+.btn-frag-view:hover,
+.btn-frag-view:focus {
+  background-color: #266e6a;
+  border: #008080;
+  color: #fff;
+}
+
+.rating-value {
+  color: #008080;
+}
+.rating-count {
+  color: #20b2aa;
+}
+/* Fragrance Body (Under Image) */
+
+/* Badge Scent Type */
+.bdg-scent-type {
+  align-self: flex-start;
+}
+
+/* Fragrance Scent Types */
+.fresh-frag {
+  background-color: #198754 !important;
+}
+
+.floral-frag {
+  background-color: #ff5f8d !important;
+}
+/* Fragrance Scent Types */
+
+/* Fragrance Card Settings (Full Card) */
+.frag-card {
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.frag-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.15);
+}
+
+.fav-btn {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Fragrance Season Pill */
+.frag-season-multi span {
+  padding: 0.2em 0.5em;
+  color: white;
+  font-size: 0.75rem;
+  line-height: 1;
+}
+.frag-season-multi span:first-child {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.frag-season-multi span:last-child {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.season-spring {
+  background-color: #9fe584;
+}
+.season-summer {
+  background-color: #fc958a;
+}
+.season-fall {
+  background-color: #f9be6e;
+}
+.season-winter {
+  background-color: #78d6f0;
+}
+/* Fragrance Season Pill */
+
+/* Fragrance Scent Type Pill*/
+.scent-fresh {
+  background-color: #198754 !important;
+}
+.scent-floral {
+  background-color: #ff5f8d !important;
+}
+.scent-woody {
+  background-color: #8b5a2b !important;
+}
+.scent-oriental {
+  background-color: #6f42c1 !important;
+}
+
+.frag-scent-multi span {
+  padding: 0.2em 0.5em;
+  color: white;
+  font-size: 0.75rem;
+  line-height: 1;
+}
+.frag-scent-multi span:first-child {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.frag-scent-multi span:last-child {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+/* Fragrance Scent Type Pill*/
+
+/* Pefume.HTML Layout */
+.perfume-detail .ratio {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* perfume.html custom styles */
+
+.perfume-card {
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.08);
+}
+
+.card-img-pane {
+  background: #e6f9f3;
+  padding: 2rem;
+}
+
+.perfume-card .ratio img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Brand / Name */
+.brand {
+  color: #6c757d;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+}
+.name {
+  font-size: 2.25rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+/* Rating row */
+.rating-wrap {
+  font-size: 1rem;
+  color: #343a40;
+}
+.rating-wrap .bi-star-fill {
+  font-size: 1.3rem;
+  color: #ffc107;
+}
+
+/* Scent badge */
+.badge-scent {
+  padding: 0.4em 0.75em;
+  background: #38d9a9;
+  color: white;
+  font-weight: 500;
+  border-radius: 999px;
+  font-size: 0.9rem;
+}
+
+/* Notes accordion flush style */
+.notes-accordion .accordion-button {
+  background: #f8f9fa;
+  color: #20b2aa;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.notes-accordion .accordion-button:not(.collapsed) {
+  background: #e0f2f1;
+}
+.notes-accordion .accordion-body {
+  padding: 0.75rem 1.25rem;
+  color: #495057;
+  font-size: 0.95rem;
+}
+
+/* accordion overrides */
+.notes-accordion .accordion-button {
+  background: #e0f2f1;
+  color: #004d40;
+  font-weight: 500;
+}
+.notes-accordion .accordion-button:not(.collapsed) {
+  background: #b2dfdb;
+}
+.notes-accordion .accordion-body {
+  padding: 1rem;
+  font-size: 0.95rem;
+  color: #20b2aa;
+}
+/* Pefume.HTML Layout */
+
+/* Toggle-button “pressed” style */
+.btn-filter {
+  border: 1px solid #ccc;
+  background-color: transparent;
+  color: #333;
+}
+.btn-filter.active {
+  background-color: #198754;
+  color: white;
+  border-color: #198754;
+}
+
+/*  */
+.frag-section-title {
+  font-family: "Alegreya", serif;
+  color: #008080;
+}
+
+.frag-search-and-filter {
+  font-family: "Alegreya", serif;
+}
+
+.gallery-btn {
+  background-color: #b2dfdb;
+  color: white;
+  border: #38d9a9;
+}
+
+.gallery-btn:hover {
+  background-color: #b2dfdba9;
+}
+
+.frag-name,
+.frag-rating {
+  color: #004d40;
+}
+
+.frag-brand,
+.frag-votes {
+  color: #20b2aa !important;
+}
+
+.card-body {
+  font-family: "Alegreya", serif;
+}
+
+.name {
+  color: #004d40;
+}
+.brand {
+  color: #004d40;
+}
+
+.rating {
+  color: #004d40;
+}
+
+.votes {
+  color: #20b2aa !important;
+}
+
+/* Colors:
+  #008080
+  #20B2AA
+  #48D1CC
+  #7FFFD4
+  #E0FFFF
+  */
